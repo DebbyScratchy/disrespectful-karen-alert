@@ -131,6 +131,7 @@ local Remote = Remotes[RandomRemote(1, #Remotes)]
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn=false
 
 Main.Name = "Main"
 Main.Parent = ScreenGui
